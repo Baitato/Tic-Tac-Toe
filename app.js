@@ -80,14 +80,14 @@ function CheckEnd() {
   }
 
   if (
-    (cells[0] === "✖" || cells[0] === "Ｏ") &&
+    (cells[0].innerHTML === "✖" || cells[0].innerHTML === "Ｏ") &&
     cells[0].innerHTML === cells[4].innerHTML &&
     cells[4].innerHTML === cells[8].innerHTML
   )
     return cells[0].innerHTML;
 
   if (
-    (cells[2] === "✖" || cells[2] === "Ｏ") &&
+    (cells[2].innerHTML === "✖" || cells[2].innerHTML === "Ｏ") &&
     cells[2].innerHTML === cells[4].innerHTML &&
     cells[4].innerHTML === cells[6].innerHTML
   )
