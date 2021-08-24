@@ -91,7 +91,7 @@ function CheckEnd() {
     cells[2].innerHTML === cells[4].innerHTML &&
     cells[4].innerHTML === cells[6].innerHTML
   )
-    return cells[0].innerHTML;
+    return cells[2].innerHTML;
 
   cells.forEach((cell) => {
     if (cell.innerHTML === "✖" || cell.innerHTML === "Ｏ") counter++;
